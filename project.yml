@@ -10,9 +10,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -82.6375
-  - 27.7885
-  - 16
+  - -77.0222
+  - 38.8879
+  - 17
 description: Historic cartography for neighborhood maps.
 format: "png8:m=h"
 interactivity_layer: ''
@@ -20,7 +20,7 @@ layers: null
 maxzoom: 22
 minzoom: 0
 name: Neighborhood Antique
-source: "mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5,colemanm.e5de26c0"
+source: "mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5"
 styles: 
   - style.mss
   - road.mss

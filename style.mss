@@ -2,9 +2,11 @@
 @land: #fff;
 @park: darken(@antique,5);
 @antique: #ffe3bd;
-@water: darken(@antique,30);
+@water: darken(@antique,18);
 @aeroway: #cfaa78;
+@shade: #422e0f;
 @waterway: #444;
+@contour: spin(lighten(@shade,40),-5);
 
 Map {
   background-color: @antique;
@@ -53,12 +55,11 @@ Map {
 // Water Features 
 #water {
   polygon-fill: @water;
-  polygon-pattern-file: url('img/patterns/textured_paper.png');
-  polygon-pattern-alignment: global;
-  polygon-pattern-opacity: 0.3;
+  //polygon-pattern-file: url('img/patterns/paper.png');
+  //polygon-pattern-alignment: global;
+  //polygon-pattern-opacity: 0.3;
   // Map tiles are 256 pixels by 256 pixels wide, so the height 
   // and width of tiling pattern images must be factors of 256. 
-  //polygon-pattern-file: url(pattern/wave.png);
   [zoom<=5] {
     // Below zoom level 5 we use Natural Earth data for water,
     // which has more obvious seams that need to be hidden.
@@ -144,7 +145,7 @@ Map {
     polygon-clip: false;
     polygon-simplify: 7;
     [class='full_shadow'], [class='medium_shadow'] {
-      polygon-fill: #000;
+      polygon-fill: @shade;
       polygon-opacity: 0.12;
       [zoom>=15][zoom<=16] { polygon-opacity: 0.095; }
       [zoom>=17][zoom<=18] { polygon-opacity: 0.075; }
@@ -170,8 +171,9 @@ Map {
 // ================================================================== 
 
 #contour {
-  line-color: #ccc;
+  line-color: @contour;
   line-opacity: 0.75;
+  line-width: 0.5;
   }
 
 #contour.label {

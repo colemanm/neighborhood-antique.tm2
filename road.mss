@@ -74,14 +74,18 @@
       [zoom=12] { line-width: 0.5; line-color: lighten(@black,30); }
       [zoom=13] { line-width: 1.5; }
       [zoom=14] { line-width: 2.5; }
-      [zoom>=15] { line-width: 5; }
-      [zoom>=16] { line-width: 10; }
+      [zoom=15] { line-width: 5; }
+      [zoom=16] { line-width: 10; }
+      [zoom=17] { line-width: 14; }
+      [zoom>=18] { line-width: 20; }
     }
     [class='service'][zoom>=16], {
       line-color: @black;
       line-join:round;
       #road, #bridge { line-cap: round; }
-      [zoom>=16] { line-width: 6; }
+      [zoom=16] { line-width: 6; }
+      [zoom=17] { line-width: 10; }
+      [zoom>=18] { line-width: 16; }
     } 
   }
 
@@ -91,7 +95,7 @@
       line-join:round;
       #road, #bridge { line-cap:round; }
       line-color: @antique;
-      #tunnel { line-color:lighten(@motorway,4); }
+      #tunnel { line-color:lighten(@antique,4); }
       [zoom>=10] { line-width:0; }
       [zoom>=11] { line-width:0; }
       [zoom>=12] { line-width:0; }
@@ -104,7 +108,7 @@
       line-join:round;
       #road, #bridge { line-cap: round; }
       line-color: @antique;
-      #tunnel {  line-color:lighten(@motorway,4); }
+      #tunnel {  line-color:lighten(@antique,4); }
       [zoom>=14] { line-width:1.5; }
       [zoom>=15] { line-width:3; }
       [zoom>=16] { line-width:4.5; }
@@ -113,7 +117,7 @@
       line-join:round;
       #road, #bridge { line-cap: round; }
       line-color: @antique;
-      #tunnel { line-color:lighten(@main,25); }
+      #tunnel { line-color:lighten(@antique,25); }
       [zoom=11] { line-width: 0; }
       [zoom=12] { line-width: 0; }
       [zoom=13] { line-width: 1.5; }
@@ -128,7 +132,9 @@
       [zoom=13] { line-width: 1; }
       [zoom=14] { line-width: 1.5; }
       [zoom=15] { line-width: 3; }
-      [zoom>=16] { line-width: 8; }
+      [zoom=16] { line-width: 8; }
+      [zoom=17] { line-width: 12; }
+      [zoom>=18] { line-width: 18; }
     }
     [class='street_limited'][zoom>=13], {
       line-color: @antique;
@@ -143,7 +149,9 @@
       line-color: @antique;
       line-join:round;
       #road, #bridge { line-cap: round; }
-      [zoom>=16] { line-width: 4; }
+      [zoom=16] { line-width: 4; }
+      [zoom=17] { line-width: 8; }
+      [zoom>=18] { line-width: 14; }
     }
     [class='major_rail'] {
       line-width: 0.4;

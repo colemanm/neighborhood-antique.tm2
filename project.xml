@@ -5,13 +5,13 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">-82.6375,27.7885,16</Parameter>
+  <Parameter name="center">-77.0222,38.8879,17</Parameter>
   <Parameter name="description"><![CDATA[Historic cartography for neighborhood maps.]]></Parameter>
   <Parameter name="format">png8:m=h</Parameter>
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
   <Parameter name="name"><![CDATA[Neighborhood Antique]]></Parameter>
-  <Parameter name="source"><![CDATA[mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5,colemanm.e5de26c0]]></Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5]]></Parameter>
 </Parameters>
 
 
@@ -30,13 +30,13 @@
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([class] = 'medium_shadow')</Filter>
-    <PolygonSymbolizer fill-opacity="0.095" fill="#000000" clip="false" simplify="7" />
+    <PolygonSymbolizer fill-opacity="0.095" fill="#422e0f" clip="false" simplify="7" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([class] = 'full_shadow')</Filter>
-    <PolygonSymbolizer fill-opacity="0.095" fill="#000000" clip="false" simplify="7" />
+    <PolygonSymbolizer fill-opacity="0.095" fill="#422e0f" clip="false" simplify="7" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -55,13 +55,13 @@
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([class] = 'medium_shadow')</Filter>
-    <PolygonSymbolizer fill="#000000" fill-opacity="0.12" clip="false" simplify="7" />
+    <PolygonSymbolizer fill="#422e0f" fill-opacity="0.12" clip="false" simplify="7" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([class] = 'full_shadow')</Filter>
-    <PolygonSymbolizer fill="#000000" fill-opacity="0.12" clip="false" simplify="7" />
+    <PolygonSymbolizer fill="#422e0f" fill-opacity="0.12" clip="false" simplify="7" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
@@ -80,13 +80,13 @@
     <MaxScaleDenominator>100000000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([class] = 'full_shadow')</Filter>
-    <PolygonSymbolizer fill="#000000" fill-opacity="0.12" clip="false" simplify="7" />
+    <PolygonSymbolizer fill="#422e0f" fill-opacity="0.12" clip="false" simplify="7" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([class] = 'medium_shadow')</Filter>
-    <PolygonSymbolizer fill="#000000" fill-opacity="0.12" clip="false" simplify="7" />
+    <PolygonSymbolizer fill="#422e0f" fill-opacity="0.12" clip="false" simplify="7" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000000</MaxScaleDenominator>
@@ -105,13 +105,13 @@
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <MinScaleDenominator>1500</MinScaleDenominator>
     <Filter>([class] = 'medium_shadow')</Filter>
-    <PolygonSymbolizer fill-opacity="0.075" fill="#000000" clip="false" simplify="7" />
+    <PolygonSymbolizer fill-opacity="0.075" fill="#422e0f" clip="false" simplify="7" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <MinScaleDenominator>1500</MinScaleDenominator>
     <Filter>([class] = 'full_shadow')</Filter>
-    <PolygonSymbolizer fill-opacity="0.075" fill="#000000" clip="false" simplify="7" />
+    <PolygonSymbolizer fill-opacity="0.075" fill="#422e0f" clip="false" simplify="7" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
@@ -128,12 +128,12 @@
   <Rule>
     <MaxScaleDenominator>1500</MaxScaleDenominator>
     <Filter>([class] = 'medium_shadow')</Filter>
-    <PolygonSymbolizer fill-opacity="0.0045" fill="#000000" clip="false" simplify="7" />
+    <PolygonSymbolizer fill-opacity="0.0045" fill="#422e0f" clip="false" simplify="7" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500</MaxScaleDenominator>
     <Filter>([class] = 'full_shadow')</Filter>
-    <PolygonSymbolizer fill-opacity="0.0045" fill="#000000" clip="false" simplify="7" />
+    <PolygonSymbolizer fill-opacity="0.0045" fill="#422e0f" clip="false" simplify="7" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -150,7 +150,7 @@
 
 <Style name="contour" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#cccccc" stroke-opacity="0.75" />
+    <LineSymbolizer stroke="#d59248" stroke-opacity="0.75" stroke-width="0.5" />
   </Rule>
 </Style>
 <Layer name="contour"
@@ -286,13 +286,11 @@
 <Style name="water" filter-mode="first">
   <Rule>
     <MinScaleDenominator>12500000</MinScaleDenominator>
-    <PolygonSymbolizer gamma="0.4" fill="#ffa224" />
-    <PolygonPatternSymbolizer file="img/patterns/textured_paper.png" alignment="global" opacity="0.3" />
+    <PolygonSymbolizer gamma="0.4" fill="#ffbc61" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <PolygonSymbolizer fill="#ffa224" />
-    <PolygonPatternSymbolizer file="img/patterns/textured_paper.png" alignment="global" opacity="0.3" />
+    <PolygonSymbolizer fill="#ffbc61" />
   </Rule>
 </Style>
 <Layer name="water"
@@ -363,104 +361,116 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'main')</Filter>
-    <LineSymbolizer stroke="#b7b7b7" stroke-width="6" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffffff" stroke-width="6" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'main')</Filter>
-    <LineSymbolizer stroke="#b7b7b7" stroke-width="3" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffffff" stroke-width="3" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'main')</Filter>
-    <LineSymbolizer stroke="#b7b7b7" stroke-width="2.5" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'main')</Filter>
-    <LineSymbolizer stroke="#b7b7b7" stroke-width="1.5" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'main')</Filter>
-    <LineSymbolizer stroke="#b7b7b7" stroke-width="0" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffffff" stroke-width="0" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'main')</Filter>
-    <LineSymbolizer stroke="#b7b7b7" stroke-width="0" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffffff" stroke-width="0" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link')</Filter>
-    <LineSymbolizer stroke="#2c2c2c" stroke-width="4.5" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffecd1" stroke-width="4.5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link')</Filter>
-    <LineSymbolizer stroke="#2c2c2c" stroke-width="3" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffecd1" stroke-width="3" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link')</Filter>
-    <LineSymbolizer stroke="#2c2c2c" stroke-width="1.5" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffecd1" stroke-width="1.5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke="#2c2c2c" stroke-width="7" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffecd1" stroke-width="7" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke="#2c2c2c" stroke-width="5" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffecd1" stroke-width="5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke="#2c2c2c" stroke-width="3" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffecd1" stroke-width="3" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke="#2c2c2c" stroke-width="1.5" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffecd1" stroke-width="1.5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke="#2c2c2c" stroke-width="0" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffecd1" stroke-width="0" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke="#2c2c2c" stroke-width="0" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffecd1" stroke-width="0" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke="#2c2c2c" stroke-width="0" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffecd1" stroke-width="0" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke="#2c2c2c" stroke-linejoin="round" />
+    <LineSymbolizer stroke="#ffecd1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke-width="14" stroke="#ffe3bd" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke-width="8" stroke="#ffe3bd" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
     <LineSymbolizer stroke-width="4" stroke="#ffe3bd" stroke-linejoin="round" />
   </Rule>
@@ -488,7 +498,19 @@
     <LineSymbolizer stroke-width="1" stroke="#ffe3bd" stroke-linejoin="round" />
   </Rule>
   <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke-width="18" stroke="#ffe3bd" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke-width="12" stroke="#ffe3bd" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
     <LineSymbolizer stroke-width="8" stroke="#ffe3bd" stroke-linejoin="round" />
   </Rule>
@@ -525,7 +547,54 @@
 </Style>
 <Style name="tunnel-case" filter-mode="first">
   <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="20" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="14" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="10" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="5" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="2.5" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="1.5" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="20" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="14" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
     <LineSymbolizer stroke-dasharray="3, 2" stroke-width="10" stroke-linejoin="round" stroke="#111111" />
   </Rule>
@@ -552,29 +621,6 @@
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
     <LineSymbolizer stroke-dasharray="3, 2" stroke-width="0.5" stroke="#5e5e5e" stroke-linejoin="round" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="10" stroke-linejoin="round" stroke="#111111" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="5" stroke-linejoin="round" stroke="#111111" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="2.5" stroke-linejoin="round" stroke="#111111" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="1.5" stroke-linejoin="round" stroke="#111111" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -700,7 +746,19 @@
     <LineSymbolizer stroke-dasharray="3, 2" stroke-width="1" stroke-linejoin="round" stroke="#111111" />
   </Rule>
   <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke-width="16" stroke="#111111" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke-width="10" stroke="#111111" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
     <LineSymbolizer stroke-width="6" stroke="#111111" stroke-linejoin="round" />
   </Rule>
@@ -712,7 +770,19 @@
 
 <Style name="road-fill" filter-mode="first">
   <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="14" stroke="#ffe3bd" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="8" stroke="#ffe3bd" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
     <LineSymbolizer stroke-linecap="round" stroke-width="4" stroke="#ffe3bd" stroke-linejoin="round" />
   </Rule>
@@ -740,7 +810,19 @@
     <LineSymbolizer stroke-linecap="round" stroke-width="1" stroke="#ffe3bd" stroke-linejoin="round" />
   </Rule>
   <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="18" stroke="#ffe3bd" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="12" stroke="#ffe3bd" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
     <LineSymbolizer stroke-linecap="round" stroke-width="8" stroke="#ffe3bd" stroke-linejoin="round" />
   </Rule>
@@ -876,12 +958,71 @@
 </Style>
 <Style name="road-case" filter-mode="first">
   <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="16" stroke="#111111" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="10" stroke="#111111" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
     <LineSymbolizer stroke-linecap="round" stroke-width="6" stroke="#111111" stroke-linejoin="round" />
   </Rule>
   <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="20" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="14" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="10" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="5" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="2.5" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="20" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="14" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
     <LineSymbolizer stroke-linecap="round" stroke-width="10" stroke-linejoin="round" stroke="#111111" />
   </Rule>
@@ -908,29 +1049,6 @@
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
     <LineSymbolizer stroke-linecap="round" stroke-width="0.5" stroke="#5e5e5e" stroke-linejoin="round" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="10" stroke-linejoin="round" stroke="#111111" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="5" stroke-linejoin="round" stroke="#111111" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="2.5" stroke-linejoin="round" stroke="#111111" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke-linejoin="round" stroke="#111111" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -1063,7 +1181,19 @@
 
 <Style name="bridge-fill" filter-mode="first">
   <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="14" stroke="#ffe3bd" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="8" stroke="#ffe3bd" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
     <LineSymbolizer stroke-linecap="round" stroke-width="4" stroke="#ffe3bd" stroke-linejoin="round" />
   </Rule>
@@ -1091,7 +1221,19 @@
     <LineSymbolizer stroke-linecap="round" stroke-width="1" stroke="#ffe3bd" stroke-linejoin="round" />
   </Rule>
   <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="18" stroke="#ffe3bd" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="12" stroke="#ffe3bd" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
     <LineSymbolizer stroke-linecap="round" stroke-width="8" stroke="#ffe3bd" stroke-linejoin="round" />
   </Rule>
@@ -1227,35 +1369,36 @@
 </Style>
 <Style name="bridge-case" filter-mode="first">
   <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="16" stroke="#111111" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke-linecap="round" stroke-width="10" stroke="#111111" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
     <LineSymbolizer stroke-linecap="round" stroke-width="6" stroke="#111111" stroke-linejoin="round" />
   </Rule>
   <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-width="10" stroke-linejoin="round" stroke="#111111" />
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke-width="20" stroke-linejoin="round" stroke="#111111" />
   </Rule>
   <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#111111" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-width="2.5" stroke-linejoin="round" stroke="#111111" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke-linejoin="round" stroke="#111111" />
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke-width="14" stroke-linejoin="round" stroke="#111111" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
     <LineSymbolizer stroke-width="10" stroke-linejoin="round" stroke="#111111" />
   </Rule>
@@ -1282,6 +1425,41 @@
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
     <LineSymbolizer stroke-width="0.5" stroke="#5e5e5e" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-width="20" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-width="14" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-width="10" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-width="2.5" stroke-linejoin="round" stroke="#111111" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-width="1.5" stroke-linejoin="round" stroke="#111111" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -1445,24 +1623,24 @@
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <Filter>([admin_level] = 2) and ([disputed] = 1) and ([maritime] = 1)</Filter>
-    <LineSymbolizer stroke-dasharray="4, 4" stroke-width="4" stroke-linecap="round" stroke="#ffa224" />
+    <LineSymbolizer stroke-dasharray="4, 4" stroke-width="4" stroke-linecap="round" stroke="#ffbc61" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([admin_level] = 2) and ([disputed] = 1) and ([maritime] = 1)</Filter>
-    <LineSymbolizer stroke-dasharray="4, 4" stroke-width="2" stroke-linecap="round" stroke="#ffa224" />
+    <LineSymbolizer stroke-dasharray="4, 4" stroke-width="2" stroke-linecap="round" stroke="#ffbc61" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([admin_level] = 2) and ([disputed] = 1) and ([maritime] = 1)</Filter>
-    <LineSymbolizer stroke-dasharray="4, 4" stroke-width="1.2" stroke-linecap="round" stroke="#ffa224" />
+    <LineSymbolizer stroke-dasharray="4, 4" stroke-width="1.2" stroke-linecap="round" stroke="#ffbc61" />
   </Rule>
   <Rule>
     <MinScaleDenominator>50000000</MinScaleDenominator>
     <Filter>([admin_level] = 2) and ([disputed] = 1) and ([maritime] = 1)</Filter>
-    <LineSymbolizer stroke-dasharray="4, 4" stroke-width="0.8" stroke-linecap="round" stroke="#ffa224" />
+    <LineSymbolizer stroke-dasharray="4, 4" stroke-width="0.8" stroke-linecap="round" stroke="#ffbc61" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
@@ -1489,24 +1667,24 @@
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <Filter>([admin_level] = 2) and ([maritime] = 1)</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linecap="round" stroke="#ffa224" />
+    <LineSymbolizer stroke-width="4" stroke-linecap="round" stroke="#ffbc61" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([admin_level] = 2) and ([maritime] = 1)</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linecap="round" stroke="#ffa224" />
+    <LineSymbolizer stroke-width="2" stroke-linecap="round" stroke="#ffbc61" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([admin_level] = 2) and ([maritime] = 1)</Filter>
-    <LineSymbolizer stroke-width="1.2" stroke-linecap="round" stroke="#ffa224" />
+    <LineSymbolizer stroke-width="1.2" stroke-linecap="round" stroke="#ffbc61" />
   </Rule>
   <Rule>
     <MinScaleDenominator>50000000</MinScaleDenominator>
     <Filter>([admin_level] = 2) and ([maritime] = 1)</Filter>
-    <LineSymbolizer stroke-width="0.8" stroke-linecap="round" stroke="#ffa224" />
+    <LineSymbolizer stroke-width="0.8" stroke-linecap="round" stroke="#ffbc61" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
@@ -1532,7 +1710,7 @@
   </Rule>
   <Rule>
     <Filter>([maritime] = 1)</Filter>
-    <LineSymbolizer stroke="#ffa224" stroke-width="0.2" />
+    <LineSymbolizer stroke="#ffbc61" stroke-width="0.2" />
   </Rule>
   <Rule>
     <LineSymbolizer stroke-width="0.2" stroke="#000000" />
@@ -1554,80 +1732,80 @@
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <Filter>([labelrank] = 3) and ([placement] = 'line')</Filter>
-    <TextSymbolizer size="14" character-spacing="2" placement="line" avoid-edges="true" face-name="Kievit SC Offc Pro Book Italic" wrap-width="60" wrap-before="true" fill="#000000" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" character-spacing="2" placement="line" avoid-edges="true" face-name="Crimson Semibold Italic" wrap-width="60" wrap-before="true" fill="#000000" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([labelrank] = 3) and ([placement] = 'line')</Filter>
-    <TextSymbolizer size="11" placement="line" avoid-edges="true" face-name="Kievit SC Offc Pro Book Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="11" placement="line" avoid-edges="true" face-name="Crimson Semibold Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <Filter>([labelrank] = 3)</Filter>
-    <TextSymbolizer size="14" character-spacing="2" face-name="Kievit SC Offc Pro Book Italic" wrap-width="60" wrap-before="true" fill="#000000" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" character-spacing="2" face-name="Crimson Semibold Italic" wrap-width="60" wrap-before="true" fill="#000000" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([labelrank] = 3)</Filter>
-    <TextSymbolizer size="11" face-name="Kievit SC Offc Pro Book Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="11" face-name="Crimson Semibold Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <Filter>([labelrank] = 2) and ([placement] = 'line')</Filter>
-    <TextSymbolizer size="16" placement="line" avoid-edges="true" face-name="Kievit SC Offc Pro Book Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="16" placement="line" avoid-edges="true" face-name="Crimson Semibold Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([labelrank] = 2) and ([placement] = 'line')</Filter>
-    <TextSymbolizer size="14" placement="line" avoid-edges="true" face-name="Kievit SC Offc Pro Book Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" placement="line" avoid-edges="true" face-name="Crimson Semibold Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <Filter>([labelrank] = 2)</Filter>
-    <TextSymbolizer size="16" face-name="Kievit SC Offc Pro Book Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="16" face-name="Crimson Semibold Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([labelrank] = 2)</Filter>
-    <TextSymbolizer size="14" face-name="Kievit SC Offc Pro Book Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" face-name="Crimson Semibold Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <Filter>([labelrank] = 1) and ([placement] = 'line')</Filter>
-    <TextSymbolizer size="22" wrap-width="120" character-spacing="4" line-spacing="8" placement="line" avoid-edges="true" face-name="Kievit SC Offc Pro Book Italic" wrap-before="true" fill="#000000" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="22" wrap-width="120" character-spacing="4" line-spacing="8" placement="line" avoid-edges="true" face-name="Crimson Semibold Italic" wrap-before="true" fill="#000000" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([labelrank] = 1) and ([placement] = 'line')</Filter>
-    <TextSymbolizer size="18" wrap-width="120" character-spacing="4" line-spacing="8" placement="line" avoid-edges="true" face-name="Kievit SC Offc Pro Book Italic" wrap-before="true" fill="#000000" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="18" wrap-width="120" character-spacing="4" line-spacing="8" placement="line" avoid-edges="true" face-name="Crimson Semibold Italic" wrap-before="true" fill="#000000" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <Filter>([labelrank] = 1)</Filter>
-    <TextSymbolizer size="22" wrap-width="120" character-spacing="4" line-spacing="8" face-name="Kievit SC Offc Pro Book Italic" wrap-before="true" fill="#000000" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="22" wrap-width="120" character-spacing="4" line-spacing="8" face-name="Crimson Semibold Italic" wrap-before="true" fill="#000000" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([labelrank] = 1)</Filter>
-    <TextSymbolizer size="18" wrap-width="120" character-spacing="4" line-spacing="8" face-name="Kievit SC Offc Pro Book Italic" wrap-before="true" fill="#000000" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="18" wrap-width="120" character-spacing="4" line-spacing="8" face-name="Crimson Semibold Italic" wrap-before="true" fill="#000000" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <Filter>([placement] = 'line')</Filter>
-    <TextSymbolizer size="12" placement="line" avoid-edges="true" face-name="Kievit SC Offc Pro Book Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="12" placement="line" avoid-edges="true" face-name="Crimson Semibold Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([placement] = 'line')</Filter>
-    <TextSymbolizer placement="line" avoid-edges="true" face-name="Kievit SC Offc Pro Book Italic" wrap-width="60" wrap-before="true" fill="#000000" size="10" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer placement="line" avoid-edges="true" face-name="Crimson Semibold Italic" wrap-width="60" wrap-before="true" fill="#000000" size="10" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
-    <TextSymbolizer size="12" face-name="Kievit SC Offc Pro Book Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="12" face-name="Crimson Semibold Italic" wrap-width="60" wrap-before="true" fill="#000000" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000000</MinScaleDenominator>
-    <TextSymbolizer face-name="Kievit SC Offc Pro Book Italic" wrap-width="60" wrap-before="true" fill="#000000" size="10" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Crimson Semibold Italic" wrap-width="60" wrap-before="true" fill="#000000" size="10" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
 </Style>
 <Layer name="marine_label"
@@ -1642,181 +1820,181 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'city')</Filter>
-    <TextSymbolizer face-name="Kievit SC Offc Pro Bold" size="30" wrap-width="250" line-spacing="-12" halo-radius="3" fill="#000000" wrap-before="true" halo-fill="#ffffff" halo-rasterizer="fast" ><![CDATA['']]></TextSymbolizer>
+    <TextSymbolizer face-name="Crimson Semibold" size="30" wrap-width="250" line-spacing="-12" halo-radius="3" fill="#000000" wrap-before="true" text-transform="uppercase" halo-fill="#ffe3bd" halo-rasterizer="fast" ><![CDATA['']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'city')</Filter>
-    <TextSymbolizer face-name="Kievit SC Offc Pro Bold" size="30" wrap-width="250" line-spacing="-12" halo-radius="3" fill="#000000" wrap-before="true" halo-fill="#ffffff" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Crimson Semibold" size="30" wrap-width="250" line-spacing="-12" halo-radius="3" fill="#000000" wrap-before="true" text-transform="uppercase" halo-fill="#ffe3bd" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'city')</Filter>
-    <TextSymbolizer fill="#000000" face-name="Kievit SC Offc Pro Bold" size="22" wrap-width="200" line-spacing="-8" halo-radius="2.5" wrap-before="true" halo-fill="#ffffff" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#000000" face-name="Crimson Semibold" size="22" wrap-width="200" line-spacing="-8" halo-radius="2.5" wrap-before="true" text-transform="uppercase" halo-fill="#ffe3bd" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'city')</Filter>
-    <TextSymbolizer fill="#000000" face-name="Kievit SC Offc Pro Bold" size="18" wrap-width="140" character-spacing="0" halo-radius="2" wrap-before="true" halo-fill="#ffffff" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#000000" face-name="Crimson Semibold" size="18" wrap-width="140" character-spacing="0" halo-radius="2" wrap-before="true" text-transform="uppercase" halo-fill="#ffe3bd" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'city')</Filter>
-    <TextSymbolizer fill="#000000" face-name="Kievit SC Offc Pro Bold" size="16" wrap-width="140" character-spacing="0" halo-radius="2" wrap-before="true" halo-fill="#ffffff" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#000000" face-name="Crimson Semibold" size="16" wrap-width="140" character-spacing="0" halo-radius="2" wrap-before="true" text-transform="uppercase" halo-fill="#ffe3bd" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'city')</Filter>
-    <TextSymbolizer fill="#000000" face-name="Kievit SC Offc Pro Bold" size="18" wrap-width="160" character-spacing="0" halo-radius="2" wrap-before="true" halo-fill="#ffffff" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#000000" face-name="Crimson Semibold" size="18" wrap-width="160" character-spacing="0" halo-radius="2" wrap-before="true" text-transform="uppercase" halo-fill="#ffe3bd" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>1500000</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'city')</Filter>
-    <TextSymbolizer fill="#000000" face-name="Kievit SC Offc Pro Bold" size="18" wrap-width="140" character-spacing="0" halo-radius="2" wrap-before="true" halo-fill="#ffffff" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#000000" face-name="Crimson Semibold" size="18" wrap-width="140" character-spacing="0" halo-radius="2" wrap-before="true" text-transform="uppercase" halo-fill="#ffe3bd" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'suburb')</Filter>
-    <TextSymbolizer size="18" character-spacing="2" halo-radius="2" fill="#000000" wrap-width="180" line-spacing="-5" halo-fill="rgba(255, 255, 255, 0.7)" face-name="Kievit SC Offc Pro Book Italic" text-transform="uppercase" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="18" character-spacing="2" halo-radius="2" fill="#000000" wrap-width="180" line-spacing="-10" halo-fill="rgba(255, 227, 189, 0.7)" face-name="Crimson Bold" text-transform="uppercase" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'suburb')</Filter>
-    <TextSymbolizer size="18" wrap-width="180" character-spacing="1" halo-radius="2.5" fill="#000000" line-spacing="-5" halo-fill="rgba(255, 255, 255, 0.7)" face-name="Kievit SC Offc Pro Book Italic" text-transform="uppercase" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="18" wrap-width="180" character-spacing="1" halo-radius="2.5" fill="#000000" line-spacing="-10" halo-fill="rgba(255, 227, 189, 0.7)" face-name="Crimson Bold" text-transform="uppercase" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'suburb')</Filter>
-    <TextSymbolizer size="14" halo-radius="2" fill="#000000" line-spacing="-4" face-name="Kievit SC Offc Pro Book Italic" wrap-width="180" text-transform="uppercase" character-spacing="1" halo-fill="rgba(255, 255, 255, 0.5)" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" halo-radius="2" fill="#000000" line-spacing="-4" face-name="Crimson Bold" wrap-width="180" text-transform="uppercase" character-spacing="0" halo-fill="rgba(255, 227, 189, 0.5)" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'suburb')</Filter>
-    <TextSymbolizer size="11" halo-radius="1.5" fill="#000000" face-name="Kievit SC Offc Pro Book Italic" line-spacing="-4" text-transform="uppercase" character-spacing="1" halo-fill="rgba(255, 255, 255, 0.5)" avoid-edges="true" wrap-width="140" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="11" halo-radius="1.5" fill="#000000" face-name="Crimson Bold" line-spacing="-4" wrap-width="180" text-transform="uppercase" character-spacing="0" halo-fill="rgba(255, 227, 189, 0.5)" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'suburb')</Filter>
-    <TextSymbolizer fill="#666666" face-name="Kievit SC Offc Pro Book Italic" text-transform="uppercase" character-spacing="1" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.5)" avoid-edges="true" wrap-width="140" size="10" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([localrank] &lt;= 3) and ([type] = 'neighbourhood')</Filter>
-    <TextSymbolizer size="18" character-spacing="2" halo-radius="2" fill="#000000" wrap-width="180" line-spacing="-5" halo-fill="rgba(255, 255, 255, 0.7)" face-name="Kievit SC Offc Pro Book Italic" text-transform="uppercase" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([localrank] &lt;= 3) and ([type] = 'neighbourhood')</Filter>
-    <TextSymbolizer size="18" wrap-width="180" character-spacing="1" halo-radius="2.5" fill="#000000" line-spacing="-5" halo-fill="rgba(255, 255, 255, 0.7)" face-name="Kievit SC Offc Pro Book Italic" text-transform="uppercase" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([localrank] &lt;= 3) and ([type] = 'neighbourhood')</Filter>
-    <TextSymbolizer size="14" halo-radius="2" fill="#000000" line-spacing="-4" face-name="Kievit SC Offc Pro Book Italic" wrap-width="180" text-transform="uppercase" character-spacing="1" halo-fill="rgba(255, 255, 255, 0.5)" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([localrank] &lt;= 3) and ([type] = 'neighbourhood')</Filter>
-    <TextSymbolizer size="11" halo-radius="1.5" fill="#000000" face-name="Kievit SC Offc Pro Book Italic" line-spacing="-4" text-transform="uppercase" character-spacing="1" halo-fill="rgba(255, 255, 255, 0.5)" avoid-edges="true" wrap-width="140" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>100000</MinScaleDenominator>
-    <Filter>([localrank] &lt;= 3) and ([type] = 'neighbourhood')</Filter>
-    <TextSymbolizer fill="#666666" face-name="Kievit SC Offc Pro Book Italic" text-transform="uppercase" character-spacing="1" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.5)" avoid-edges="true" wrap-width="140" size="10" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#666666" face-name="Crimson Bold" text-transform="uppercase" character-spacing="0" halo-radius="1" halo-fill="rgba(255, 227, 189, 0.5)" avoid-edges="true" wrap-width="130" size="10" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'hamlet')</Filter>
-    <TextSymbolizer size="18" character-spacing="2" halo-radius="2" fill="#000000" wrap-width="180" line-spacing="-5" halo-fill="rgba(255, 255, 255, 0.7)" face-name="Kievit SC Offc Pro Book Italic" text-transform="uppercase" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="18" character-spacing="2" halo-radius="2" fill="#000000" wrap-width="180" line-spacing="-10" halo-fill="rgba(255, 227, 189, 0.7)" face-name="Crimson Bold" text-transform="uppercase" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'hamlet')</Filter>
-    <TextSymbolizer size="18" wrap-width="180" character-spacing="1" halo-radius="2.5" fill="#000000" line-spacing="-5" halo-fill="rgba(255, 255, 255, 0.7)" face-name="Kievit SC Offc Pro Book Italic" text-transform="uppercase" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="18" wrap-width="180" character-spacing="1" halo-radius="2.5" fill="#000000" line-spacing="-10" halo-fill="rgba(255, 227, 189, 0.7)" face-name="Crimson Bold" text-transform="uppercase" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'hamlet')</Filter>
-    <TextSymbolizer size="14" halo-radius="2" fill="#000000" line-spacing="-4" face-name="Kievit SC Offc Pro Book Italic" wrap-width="180" text-transform="uppercase" character-spacing="1" halo-fill="rgba(255, 255, 255, 0.5)" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" halo-radius="2" fill="#000000" line-spacing="-4" face-name="Crimson Bold" wrap-width="180" text-transform="uppercase" character-spacing="0" halo-fill="rgba(255, 227, 189, 0.5)" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'hamlet')</Filter>
-    <TextSymbolizer size="11" halo-radius="1.5" fill="#000000" face-name="Kievit SC Offc Pro Book Italic" line-spacing="-4" text-transform="uppercase" character-spacing="1" halo-fill="rgba(255, 255, 255, 0.5)" avoid-edges="true" wrap-width="140" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="11" halo-radius="1.5" fill="#000000" face-name="Crimson Bold" line-spacing="-4" wrap-width="180" text-transform="uppercase" character-spacing="0" halo-fill="rgba(255, 227, 189, 0.5)" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'hamlet')</Filter>
-    <TextSymbolizer fill="#666666" face-name="Kievit SC Offc Pro Book Italic" text-transform="uppercase" character-spacing="1" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.5)" avoid-edges="true" wrap-width="140" size="10" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#666666" face-name="Crimson Bold" text-transform="uppercase" character-spacing="0" halo-radius="1" halo-fill="rgba(255, 227, 189, 0.5)" avoid-edges="true" wrap-width="130" size="10" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([localrank] &lt;= 3) and ([type] = 'neighbourhood')</Filter>
+    <TextSymbolizer size="18" character-spacing="2" halo-radius="2" fill="#000000" wrap-width="180" line-spacing="-10" halo-fill="rgba(255, 227, 189, 0.7)" face-name="Crimson Bold" text-transform="uppercase" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([localrank] &lt;= 3) and ([type] = 'neighbourhood')</Filter>
+    <TextSymbolizer size="18" wrap-width="180" character-spacing="1" halo-radius="2.5" fill="#000000" line-spacing="-10" halo-fill="rgba(255, 227, 189, 0.7)" face-name="Crimson Bold" text-transform="uppercase" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([localrank] &lt;= 3) and ([type] = 'neighbourhood')</Filter>
+    <TextSymbolizer size="14" halo-radius="2" fill="#000000" line-spacing="-4" face-name="Crimson Bold" wrap-width="180" text-transform="uppercase" character-spacing="0" halo-fill="rgba(255, 227, 189, 0.5)" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([localrank] &lt;= 3) and ([type] = 'neighbourhood')</Filter>
+    <TextSymbolizer size="11" halo-radius="1.5" fill="#000000" face-name="Crimson Bold" line-spacing="-4" wrap-width="180" text-transform="uppercase" character-spacing="0" halo-fill="rgba(255, 227, 189, 0.5)" avoid-edges="true" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([localrank] &lt;= 3) and ([type] = 'neighbourhood')</Filter>
+    <TextSymbolizer fill="#666666" face-name="Crimson Bold" text-transform="uppercase" character-spacing="0" halo-radius="1" halo-fill="rgba(255, 227, 189, 0.5)" avoid-edges="true" wrap-width="130" size="10" allow-overlap="false" wrap-before="true" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'village')</Filter>
-    <TextSymbolizer size="18" face-name="Kievit SC Offc Pro Extrabold" wrap-width="170" wrap-before="true" fill="#333333" halo-fill="#ffffff" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="18" face-name="Crimson Bold" wrap-width="170" wrap-before="true" text-transform="uppercase" fill="#333333" halo-fill="#ffe3bd" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'village')</Filter>
-    <TextSymbolizer size="14" face-name="Kievit SC Offc Pro Extrabold" wrap-width="170" wrap-before="true" fill="#333333" halo-fill="#ffffff" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" face-name="Crimson Bold" wrap-width="170" wrap-before="true" text-transform="uppercase" fill="#333333" halo-fill="#ffe3bd" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'village')</Filter>
-    <TextSymbolizer size="12" face-name="Kievit SC Offc Pro Extrabold" wrap-width="170" wrap-before="true" fill="#333333" halo-fill="#ffffff" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="12" face-name="Crimson Bold" wrap-width="170" wrap-before="true" text-transform="uppercase" fill="#333333" halo-fill="#ffe3bd" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'town')</Filter>
-    <TextSymbolizer size="24" face-name="Kievit SC Offc Pro Medium" wrap-width="170" wrap-before="true" fill="#333333" halo-fill="#ffffff" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA['']]></TextSymbolizer>
+    <TextSymbolizer size="24" face-name="Crimson Semibold" wrap-width="170" wrap-before="true" text-transform="uppercase" fill="#333333" halo-fill="#ffe3bd" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA['']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>2500</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'town')</Filter>
-    <TextSymbolizer size="24" face-name="Kievit SC Offc Pro Medium" wrap-width="170" wrap-before="true" fill="#333333" halo-fill="#ffffff" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="24" face-name="Crimson Semibold" wrap-width="170" wrap-before="true" text-transform="uppercase" fill="#333333" halo-fill="#ffe3bd" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'town')</Filter>
-    <TextSymbolizer size="20" face-name="Kievit SC Offc Pro Medium" wrap-width="170" wrap-before="true" fill="#333333" halo-fill="#ffffff" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="20" face-name="Crimson Semibold" wrap-width="170" wrap-before="true" text-transform="uppercase" fill="#333333" halo-fill="#ffe3bd" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'town')</Filter>
-    <TextSymbolizer size="16" face-name="Kievit SC Offc Pro Medium" wrap-width="170" wrap-before="true" fill="#333333" halo-fill="#ffffff" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="16" face-name="Crimson Semibold" wrap-width="170" wrap-before="true" text-transform="uppercase" fill="#333333" halo-fill="#ffe3bd" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([localrank] &lt;= 3) and ([type] = 'town')</Filter>
-    <TextSymbolizer face-name="Kievit SC Offc Pro Medium" size="14" wrap-width="170" wrap-before="true" fill="#333333" halo-fill="#ffffff" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Crimson Semibold" size="14" wrap-width="170" wrap-before="true" text-transform="uppercase" fill="#333333" halo-fill="#ffe3bd" halo-radius="1.5" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <Filter>([localrank] &lt;= 3)</Filter>
-    <TextSymbolizer face-name="Kievit SC Offc Pro Extrabold" wrap-width="170" wrap-before="true" fill="#333333" halo-fill="#ffffff" halo-radius="1.5" halo-rasterizer="fast" size="10" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Crimson Bold" wrap-width="170" wrap-before="true" text-transform="uppercase" fill="#333333" halo-fill="#ffe3bd" halo-radius="1.5" halo-rasterizer="fast" size="10" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
 </Style>
 <Style name="place_label-citydots" filter-mode="first">
@@ -1824,193 +2002,193 @@
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'NW')</Filter>
-    <ShieldSymbolizer size="16" dx="-4" dy="-4" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="16" dx="-4" dy="-4" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'NW')</Filter>
-    <ShieldSymbolizer size="15" dx="-4" dy="-4" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="15" dx="-4" dy="-4" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'NW')</Filter>
-    <ShieldSymbolizer size="14" dx="-4" dy="-4" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="14" dx="-4" dy="-4" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000000</MaxScaleDenominator>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'NW')</Filter>
-    <ShieldSymbolizer dx="-4" dy="-4" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer dx="-4" dy="-4" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'SW')</Filter>
-    <ShieldSymbolizer size="16" dx="-4" dy="4" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="16" dx="-4" dy="4" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'SW')</Filter>
-    <ShieldSymbolizer size="15" dx="-4" dy="4" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="15" dx="-4" dy="4" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'SW')</Filter>
-    <ShieldSymbolizer size="14" dx="-4" dy="4" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="14" dx="-4" dy="4" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000000</MaxScaleDenominator>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'SW')</Filter>
-    <ShieldSymbolizer dx="-4" dy="4" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer dx="-4" dy="4" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'SE')</Filter>
-    <ShieldSymbolizer size="16" dx="4" dy="4" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="16" dx="4" dy="4" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'SE')</Filter>
-    <ShieldSymbolizer size="15" dx="4" dy="4" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="15" dx="4" dy="4" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'SE')</Filter>
-    <ShieldSymbolizer size="14" dx="4" dy="4" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="14" dx="4" dy="4" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000000</MaxScaleDenominator>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'SE')</Filter>
-    <ShieldSymbolizer dx="4" dy="4" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer dx="4" dy="4" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'NE')</Filter>
-    <ShieldSymbolizer size="16" dx="4" dy="-4" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="16" dx="4" dy="-4" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'NE')</Filter>
-    <ShieldSymbolizer size="15" dx="4" dy="-4" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="15" dx="4" dy="-4" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'NE')</Filter>
-    <ShieldSymbolizer size="14" dx="4" dy="-4" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="14" dx="4" dy="-4" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000000</MaxScaleDenominator>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'NE')</Filter>
-    <ShieldSymbolizer dx="4" dy="-4" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer dx="4" dy="-4" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'W')</Filter>
-    <ShieldSymbolizer size="16" dx="-5" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="16" dx="-5" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'W')</Filter>
-    <ShieldSymbolizer size="15" dx="-5" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="15" dx="-5" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'W')</Filter>
-    <ShieldSymbolizer size="14" dx="-5" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="14" dx="-5" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000000</MaxScaleDenominator>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'W')</Filter>
-    <ShieldSymbolizer dx="-5" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer dx="-5" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'E')</Filter>
-    <ShieldSymbolizer size="16" dx="5" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="16" dx="5" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'E')</Filter>
-    <ShieldSymbolizer size="15" dx="5" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="15" dx="5" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'E')</Filter>
-    <ShieldSymbolizer size="14" dx="5" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="14" dx="5" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000000</MaxScaleDenominator>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'E')</Filter>
-    <ShieldSymbolizer dx="5" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer dx="5" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'S')</Filter>
-    <ShieldSymbolizer size="16" dy="5" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="16" dy="5" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'S')</Filter>
-    <ShieldSymbolizer size="15" dy="5" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="15" dy="5" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'S')</Filter>
-    <ShieldSymbolizer size="14" dy="5" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="14" dy="5" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000000</MaxScaleDenominator>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'S')</Filter>
-    <ShieldSymbolizer dy="5" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer dy="5" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'N')</Filter>
-    <ShieldSymbolizer size="16" dy="-5" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="16" dy="-5" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'N')</Filter>
-    <ShieldSymbolizer size="15" dy="-5" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="15" dy="-5" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'N')</Filter>
-    <ShieldSymbolizer size="14" dy="-5" file="img/dot-8.svg" unlock-image="true" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="14" dy="-5" file="img/dot-8.svg" unlock-image="true" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000000</MaxScaleDenominator>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] &lt;= 3) and ([ldir] = 'N')</Filter>
-    <ShieldSymbolizer dy="-5" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Kievit SC Offc Pro Bold" placement="point" fill="#333333" halo-fill="#ffffff" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+    <ShieldSymbolizer dy="-5" file="img/dot-8.svg" unlock-image="true" size="12" face-name="Crimson Bold" placement="point" fill="#333333" halo-fill="#ffe3bd" halo-radius="1" halo-rasterizer="fast" text-transform="uppercase" ><![CDATA[[name_en]]]></ShieldSymbolizer>
   </Rule>
 </Style>
 <Layer name="place_label"
@@ -2022,30 +2200,30 @@
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <Filter>([area] &gt; 500000)</Filter>
-    <TextSymbolizer face-name="Kievit SC Offc Pro Book Italic" fill="#000000" size="12" wrap-width="100" wrap-before="true" halo-fill="#888888" halo-radius="0.5" character-spacing="2" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Crimson Bold Italic" text-transform="uppercase" fill="#000000" size="14" wrap-width="100" wrap-before="true" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([area] &gt; 500000)</Filter>
-    <TextSymbolizer face-name="Kievit SC Offc Pro Book Italic" fill="#000000" size="12" wrap-width="100" wrap-before="true" halo-fill="#888888" halo-radius="0.5" character-spacing="2" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Crimson Bold Italic" text-transform="uppercase" fill="#000000" size="14" wrap-width="100" wrap-before="true" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([area] &gt; 10000)</Filter>
-    <TextSymbolizer face-name="Kievit SC Offc Pro Book Italic" fill="#000000" size="12" wrap-width="100" wrap-before="true" halo-fill="#888888" halo-radius="0.5" character-spacing="2" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Crimson Bold Italic" text-transform="uppercase" fill="#000000" size="14" wrap-width="100" wrap-before="true" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([area] &gt; 10000)</Filter>
-    <TextSymbolizer face-name="Kievit SC Offc Pro Book Italic" fill="#000000" size="12" wrap-width="100" wrap-before="true" halo-fill="#888888" halo-radius="0.5" character-spacing="2" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Crimson Bold Italic" text-transform="uppercase" fill="#000000" size="14" wrap-width="100" wrap-before="true" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <TextSymbolizer face-name="Kievit SC Offc Pro Book Italic" fill="#000000" size="12" wrap-width="100" wrap-before="true" halo-fill="#888888" halo-radius="0.5" character-spacing="2" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Crimson Bold Italic" text-transform="uppercase" fill="#000000" size="14" wrap-width="100" wrap-before="true" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
-    <TextSymbolizer face-name="Kievit SC Offc Pro Book Italic" fill="#000000" size="12" wrap-width="100" wrap-before="true" halo-fill="#888888" halo-radius="0.5" character-spacing="2" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Crimson Bold Italic" text-transform="uppercase" fill="#000000" size="14" wrap-width="100" wrap-before="true" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
 </Style>
 <Layer name="water_label"
@@ -2056,23 +2234,50 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
       </Layer>
 
+<Style name="road_label" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <Filter>([class] = 'street')</Filter>
+    <TextSymbolizer size="10" halo-radius="1" halo-fill="#ffe3bd" placement="line" face-name="Crimson Italic" fill="#111111" halo-rasterizer="fast" character-spacing="1" avoid-edges="true" minimum-distance="70" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <Filter>([class] = 'street_limited')</Filter>
+    <TextSymbolizer size="10" halo-radius="1" halo-fill="#ffe3bd" placement="line" face-name="Crimson Italic" fill="#111111" halo-rasterizer="fast" character-spacing="1" avoid-edges="true" minimum-distance="70" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <Filter>([class] = 'main')</Filter>
+    <TextSymbolizer size="13" halo-radius="1" halo-fill="#ffe3bd" fill="#333333" face-name="Crimson Italic" placement="line" character-spacing="-1" avoid-edges="true" halo-rasterizer="fast" minimum-distance="100" minimum-padding="5" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([class] = 'main')</Filter>
+    <TextSymbolizer size="13" halo-radius="1" halo-fill="#ffe3bd" fill="#333333" face-name="Crimson Italic" placement="line" character-spacing="-1" avoid-edges="true" halo-rasterizer="fast" minimum-distance="100" minimum-padding="5" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([class] = 'main')</Filter>
+    <TextSymbolizer size="12" halo-radius="1" fill="#333333" halo-fill="#ffe3bd" face-name="Crimson Italic" placement="line" character-spacing="-1" avoid-edges="true" halo-rasterizer="fast" minimum-distance="100" minimum-padding="5" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([class] = 'main')</Filter>
+    <TextSymbolizer size="10" halo-radius="1.5" fill="#333333" halo-fill="#ffe3bd" face-name="Crimson Italic" placement="line" character-spacing="-1" avoid-edges="true" halo-rasterizer="fast" minimum-distance="100" minimum-padding="5" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+</Style>
 <Layer name="road_label"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-      </Layer>
+    <StyleName>road_label</StyleName>  </Layer>
 
 <Layer name="waterway_label"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
       </Layer>
 
 <Layer name="housenum_label"
-  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-      </Layer>
-
-<Layer name="st-pete-neighborhood-point"
-  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-      </Layer>
-
-<Layer name="st-pete-neighborhood-poly"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
       </Layer>
 

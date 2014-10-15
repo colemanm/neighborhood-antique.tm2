@@ -19,20 +19,22 @@
 // as possible. 'Arial Unicode MS Regular' and 'Arial Unicode MS Bold' 
 //are recommended as final fallbacks if you have them available. 
 //They support all the characters used in the MapBox Streets vector tiles.
-@fallback: 'Arial Unicode MS Regular;
+@fallback: 'Arial Unicode MS Regular';
 
-@caps_reg: "Kievit SC Offc Pro Regular";
-@caps_med: "Kievit SC Offc Pro Medium";
-@caps_bold: "Kievit SC Offc Pro Bold";
-@caps_exbold: "Kievit SC Offc Pro Extrabold";
-@caps_it: "Kievit SC Offc Pro Book Italic";
+@serif: "Crimson Roman";
+@serif_semibd: "Crimson Semibold";
+@serif_bd: "Crimson Bold";
+@serif_it: "Crimson Italic";
+@serif_semibd_it: "Crimson Semibold Italic";
+@serif_bd_it: "Crimson Bold Italic";
+
 
 // ---------------------------------------------------------------------
 // Marine
 
 #marine_label {
   text-name: @name;
-  text-face-name: @caps_it;
+  text-face-name: @serif_semibd_it;
   text-wrap-width: 60;
   text-wrap-before: true;
   text-fill: #000;
@@ -77,12 +79,13 @@
     shield-unlock-image: true;
     shield-name: @name;
     shield-size: 12;
-    shield-face-name: @caps_bold;
+    shield-face-name: @serif_bd;
     shield-placement: point;
     shield-fill: #333;
-    shield-halo-fill: #fff;
+    shield-halo-fill:  @antique;
     shield-halo-radius: 1;
     shield-halo-rasterizer: fast;
+    shield-text-transform: uppercase;
     [ldir='E'] { shield-text-dx: 5; }
     [ldir='W'] { shield-text-dx: -5; }
     [ldir='N'] { shield-text-dy: -5; }
@@ -105,21 +108,22 @@
 
 #place_label[zoom>=8][localrank<=3] {
   text-name: @name;
-  text-face-name: @caps_exbold;
+  text-face-name: @serif_bd;
   text-wrap-width: 170;
   text-wrap-before: true;
+  text-transform: uppercase;
   text-fill: #333;
-  text-halo-fill: #fff;
+  text-halo-fill: @antique;
   text-halo-radius: 1.5;
   text-halo-rasterizer: fast;
   text-size: 10;
   [type='city'][zoom>=8][zoom<=22] {
-  	text-face-name: @caps_med;
+  	text-face-name: @serif_semibd;
     text-size: 16;
     text-fill: #555;
    [zoom=8] { 
       text-fill: #000;
-      text-face-name: @caps_bold;
+      text-face-name: @serif_semibd;
       text-size: 18;
       text-wrap-width: 140;
       text-character-spacing: 0;
@@ -127,7 +131,7 @@
     }
    [zoom=9] { 
       text-fill: #000;
-      text-face-name: @caps_bold;
+      text-face-name: @serif_semibd;
       text-size: 18;
       text-wrap-width: 160;
       text-character-spacing: 0;
@@ -135,7 +139,7 @@
     }
    [zoom=10] { 
       text-fill: #000;
-      text-face-name: @caps_bold;
+      text-face-name: @serif_semibd;
       text-size: 16;
       text-wrap-width: 140;
       text-character-spacing: 0;
@@ -143,7 +147,7 @@
     }
    [zoom=11] { 
       text-fill: #000;
-      text-face-name: @caps_bold;
+      text-face-name: @serif_semibd;
       text-size: 18;
       text-wrap-width: 140;
       text-character-spacing: 0;
@@ -151,14 +155,14 @@
     }
    [zoom>=12] { 
       text-fill: #000;
-      text-face-name: @caps_bold;
+      text-face-name: @serif_semibd;
       text-size: 22;
       text-wrap-width: 200;
       text-line-spacing: -8;
       text-halo-radius: 2.5;
     }
    [zoom>=14] { 
-      text-face-name: @caps_bold;
+      text-face-name: @serif_semibd;
       text-size: 30;
       text-wrap-width: 250;
       text-line-spacing: -12;
@@ -168,7 +172,7 @@
     [zoom>=16] { text-name: "''"; }
   }
   [type='town'] {
-    text-face-name: @caps_med;
+    text-face-name: @serif_semibd;
     text-size: 14;
     [zoom>=12] { text-size: 16; }
     [zoom>=14] { text-size: 20; }
@@ -185,28 +189,29 @@
   [type='suburb'],
   [type='neighbourhood'] {
     text-fill: #666;
-    text-face-name:	@caps_it;
+    text-face-name:	@serif_bd;
     text-transform: uppercase;
-    text-character-spacing: 1;
+    text-character-spacing: 0;
     text-halo-radius: 1;
-    text-halo-fill: fadeout(#fff,50);
+    text-halo-fill: fadeout(@antique,50);
     text-avoid-edges: true;
-    text-wrap-width: 140;
+    text-wrap-width: 130;
     text-size: 10;
     text-allow-overlap: false;
     [zoom=13] {
       text-size: 11;
       text-halo-radius: 1.5;
       text-fill: #000;
-      text-face-name:	@caps_it;
+      text-face-name:	@serif_bd;
       text-line-spacing: -4;
-      }
+      text-wrap-width: 180;
+    }
     [zoom=14] { 
       text-size: 14; 
       text-halo-radius: 2; 
       text-fill: #000;
       text-line-spacing: -4;
-      text-face-name: @caps_it;
+      text-face-name: @serif_bd;
       text-wrap-width: 180;
     }
     [zoom>=15] { 
@@ -215,9 +220,9 @@
       text-character-spacing: 1; 
       text-halo-radius: 2.5;
       text-fill: #000;
-      text-line-spacing: -5;
-      text-halo-fill: fadeout(#fff,30);
-      text-face-name: @caps_it;
+      text-line-spacing: -10;
+      text-halo-fill: fadeout(@antique,30);
+      text-face-name: @serif_bd;
     }
     [zoom>=16] { 
       text-size: 18; 
@@ -282,7 +287,7 @@
   // Custom shield png files can be created using make_shields.sh
   // in _src folder
   shield-name: [ref];
-  shield-face-name: @sans_md;
+  shield-face-name: @serif;
   shield-fill: #fff;
   shield-min-distance: 50;
   shield-min-padding: 12;  // prevents clipped shields at tile edges
@@ -300,19 +305,17 @@
     shield-min-distance: 80;
   }
 }
-
+*/
 #road_label {
   [class='main'][zoom>=14] {
     text-name: @name;
-    text-face-name: @sans_bd;
+    text-face-name: @serif_it;
     text-placement: line;  // text follows line path
-    text-halo-fill: #666;
     text-size: 10;
-    text-character-spacing: 1;
+    text-character-spacing: -1;
     text-avoid-edges: true;  // prevents clipped labels at tile edges
-    text-halo-radius: 1;
+    text-halo-radius: 0;
     text-halo-rasterizer: fast;
-    text-transform: uppercase;
     text-min-distance: 100;
     //text-allow-overlap: false;
     text-fill: #333;
@@ -320,50 +323,49 @@
     [zoom=14] { 
       text-size: 10;
       text-halo-radius: 1.5;
-      text-fill: #fff;
-      text-halo-fill: #444;
+      text-fill: #333;
+      text-halo-fill: @antique;
       }
     [zoom=15] { 
       text-size: 12;
       text-halo-radius: 1;
-      text-fill: #fff;
-      text-halo-fill: #444;
+      text-fill: #333;
+      text-halo-fill: @antique;
       }
     [zoom=16] { 
       text-size: 13;      
-      text-halo-radius: 1.5;
-      text-halo-fill: #333;
-      text-fill: #fff;
+      text-halo-radius: 1;
+      text-halo-fill: @antique;
+      text-fill: #333;
       }
      [zoom>=17] { 
       text-size: 13;      
       text-halo-radius: 1;
-      text-halo-fill: #333;
-      text-fill: #fff;
+      text-halo-fill: @antique;
+      text-fill: #333;
       }
     }
   [class='street'][zoom>=15], [class='street_limited'][zoom>=15] {
   text-name: @name;
   text-placement: line;
-  text-face-name: @sans_bd;
-  text-transform: uppercase;
-  text-fill: #444;
-  text-halo-fill: #eee;
+  text-face-name: @serif_it;
+  text-fill: #111;
+  text-halo-fill: @antique;
   text-halo-radius: 0.75;
   text-halo-rasterizer: fast;
   text-size: 8;
-  text-character-spacing: 1.2;
+  text-character-spacing: 1;
   text-avoid-edges: true;
   text-min-distance: 70;
   text-allow-overlap: false;
   [zoom>=15] { 
       text-size: 10; 
       text-halo-radius: 1;
-      text-halo-fill: #fff;
+      text-halo-fill: @antique;
       }
     }
   }
-*/
+
 
 // ---------------------------------------------------------------------
 // Water
@@ -373,13 +375,12 @@
   [zoom>=16][area>10000],
   [zoom>=17] {
     text-name: @name;
-    text-face-name: @caps_it;
+    text-face-name: @serif_bd_it;
+    text-transform: uppercase;
     text-fill: #000;
-    text-size: 12;
+    text-size: 14;
     text-wrap-width: 100;
     text-wrap-before: true;
-    text-halo-fill: #888;
-    text-halo-radius: 0.5;
-    text-character-spacing: 2;
+    text-character-spacing: 1;
   }
 }
