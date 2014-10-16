@@ -1,18 +1,13 @@
 // Basic color palette, from which variations will be derived.
 @black:             #111;
 @motorway:          #222;
-@motorway_fill:     #fff;
 @main:               #777;
-@main_fill:          #fff;
 @street:            #888;
 @street_case:        @land;
 @service:		    #ccc;
 @service_case:	     #ccc;
-@path:			    #fff;
-@path_case:		    #ededed;
 @rail: 			    #444;
 @aeroway: 		    #eee;
-@white:              #fff;
 
 // ---------------------------------------------------------------------
 // Roads are split across 3 layers: #road, #bridge, and #tunnel. Each
@@ -117,7 +112,7 @@
       line-join:round;
       #road, #bridge { line-cap: round; }
       line-color: @antique;
-      #tunnel { line-color:lighten(@antique,25); }
+      #tunnel { line-color:lighten(@antique,4); }
       [zoom=11] { line-width: 0; }
       [zoom=12] { line-width: 0; }
       [zoom=13] { line-width: 1.5; }
@@ -143,7 +138,9 @@
       [zoom>=13] { line-width: 1; }
       [zoom>=14] { line-width: 1.5; }
       [zoom>=15] { line-width: 3.5; }
-      [zoom>=16] { line-width: 9; }
+      [zoom>=16] { line-width: 8; }
+      [zoom>=17] { line-width: 12; }
+      [zoom>=18] { line-width: 18; }
     }
     [class='service'][zoom>=16], {
       line-color: @antique;

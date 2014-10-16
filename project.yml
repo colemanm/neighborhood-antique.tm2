@@ -1,4 +1,5 @@
 _prefs: 
+  mapid: colemanm.64844535
   saveCenter: true
 _properties: 
   bridge: 
@@ -10,8 +11,8 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -77.0222
-  - 38.8879
+  - -82.4553
+  - 27.9425
   - 17
 description: Historic cartography for neighborhood maps.
 format: "png8:m=h"

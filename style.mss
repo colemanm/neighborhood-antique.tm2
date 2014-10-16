@@ -192,13 +192,14 @@ Map {
 // Buildings 
 
 #building {
-  /*
+  
   [zoom>=14] {
   line-width: 0.5; 
-  line-color: #999;
-  polygon-fill: #eee;
-  } */
+  line-color: @black;
+  polygon-fill: @antique;
+  } 
   [zoom>=16] {
+    line-color: #555;
 	line-width: 0.5; 
 	polygon-pattern-file: url('img/patterns/stripe_sm.png');
     polygon-pattern-opacity: 0.2;
