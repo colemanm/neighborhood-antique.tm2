@@ -1,16 +1,16 @@
-_prefs: 
+_prefs:
   mapid: colemanm.64844535
   saveCenter: true
-_properties: 
-  bridge: 
+_properties:
+  bridge:
     "group-by": layer
 attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
-bounds: 
+bounds:
   - -180
   - -85.0511
   - 180
   - 85.0511
-center: 
+center:
   - 10.3107
   - 47.8298
   - 8
@@ -22,7 +22,32 @@ maxzoom: 22
 minzoom: 0
 name: Neighborhood Antique
 source: "mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5"
-styles: 
+layers:
+  - landcover
+  - hillshade
+  - contour
+  - landuse
+  - waterway
+  - water
+  - aeroway
+  - barrier_line
+  - building
+  - landuse_overlay
+  - tunnel
+  - road
+  - bridge
+  - admin
+  - country_label_line
+  - country_label
+  - marine_label
+  - state_label
+  - water_label
+  - poi_label
+  - road_label
+  - place_label
+  - waterway_label
+  - housenum_label
+styles:
   - style.mss
   - road.mss
   - labels.mss
