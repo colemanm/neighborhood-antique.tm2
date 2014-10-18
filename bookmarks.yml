@@ -6,19 +6,19 @@
   tags: 
     - userbookmark
   index: 0
-- place_name: Milton, 58260, North Dakota, United States
-  zoom: 8
+- place_name: Paris, France
+  zoom: 13
   center: 
-    - 48.55479616922359
-    - -97.9705810546875
+    - 48.8562
+    - 2.3385
   tags: 
     - userbookmark
   index: 1
-- place_name: Curtis, 69025, Nebraska, United States
-  zoom: 5
+- place_name: London, UK
+  zoom: 12
   center: 
-    - 40.79717741518769
-    - -100.45898437499999
+    - 51.4999
+    - -0.1071
   tags: 
     - userbookmark
   index: 2
@@ -62,19 +62,11 @@
   tags: 
     - userbookmark
   index: 7
-- place_name: Washington, 20001, District of Columbia, United States
-  zoom: 13
+- place_name: Europe
+  zoom: 5
   center: 
-    - 38.910403802434544
-    - -77.02463150024414
+    - 46.8752
+    - 10.6787
   tags: 
     - userbookmark
   index: 8
-- place_name: Washington, 20005, District of Columbia, United States
-  zoom: 15
-  center: 
-    - 38.90372475251103
-    - -77.03342914581299
-  tags: 
-    - userbookmark
-  index: 9

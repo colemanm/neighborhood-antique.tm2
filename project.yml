@@ -1,28 +1,23 @@
-_prefs:
+_prefs: 
   mapid: colemanm.64844535
   saveCenter: true
-_properties:
-  bridge:
+_properties: 
+  bridge: 
     "group-by": layer
 attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
-bounds:
+bounds: 
   - -180
   - -85.0511
   - 180
   - 85.0511
-center:
-  - 10.3107
-  - 47.8298
+center: 
+  - -85.8279
+  - 29.843
   - 8
 description: Historic cartography for neighborhood maps.
 format: "png8:m=h"
 interactivity_layer: ''
-layers: null
-maxzoom: 22
-minzoom: 0
-name: Neighborhood Antique
-source: "mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5"
-layers:
+layers: 
   - landcover
   - hillshade
   - contour
@@ -47,7 +42,11 @@ layers:
   - place_label
   - waterway_label
   - housenum_label
-styles:
+maxzoom: 22
+minzoom: 0
+name: Neighborhood Antique
+source: "mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5"
+styles: 
   - style.mss
   - road.mss
   - labels.mss

@@ -126,6 +126,7 @@
       text-face-name: @serif_semibd;
       text-size: 18;
       text-wrap-width: 140;
+      text-line-spacing: -8;
       text-character-spacing: 0;
       text-halo-radius: 2;
     }
@@ -134,6 +135,7 @@
       text-face-name: @serif_semibd;
       text-size: 18;
       text-wrap-width: 160;
+      text-line-spacing: -8;
       text-character-spacing: 0;
       text-halo-radius: 2;
     }
@@ -142,6 +144,7 @@
       text-face-name: @serif_semibd;
       text-size: 16;
       text-wrap-width: 140;
+      text-line-spacing: -8;
       text-character-spacing: 0;
       text-halo-radius: 2;
     }
@@ -150,6 +153,7 @@
       text-face-name: @serif_semibd;
       text-size: 18;
       text-wrap-width: 140;
+      text-line-spacing: -8;
       text-character-spacing: 0;
       text-halo-radius: 2;
     }
