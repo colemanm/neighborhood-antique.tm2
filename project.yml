@@ -11,37 +11,13 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -85.8279
-  - 29.843
-  - 8
+  - -82.6298
+  - 27.7321
+  - 16
 description: Historic cartography for neighborhood maps.
 format: "png8:m=h"
 interactivity_layer: ''
-layers: 
-  - landcover
-  - hillshade
-  - contour
-  - landuse
-  - waterway
-  - water
-  - aeroway
-  - barrier_line
-  - building
-  - landuse_overlay
-  - tunnel
-  - road
-  - bridge
-  - admin
-  - country_label_line
-  - country_label
-  - marine_label
-  - state_label
-  - water_label
-  - poi_label
-  - road_label
-  - place_label
-  - waterway_label
-  - housenum_label
+layers: null
 maxzoom: 22
 minzoom: 0
 name: Neighborhood Antique

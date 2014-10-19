@@ -161,5 +161,18 @@
       	h/line-dasharray: 1,31;
       }
     }
+    [class='minor_rail'] {
+      [zoom>=14] {
+        line-width: 0.2;
+        line-color: @rail;
+      }
+      [zoom>=16] {
+        line-width: 0.5;
+      	// Hatching
+      	h/line-width: 2;
+      	h/line-color: @rail;
+      	h/line-dasharray: 1,31;
+      }
+    }
   }
 }
