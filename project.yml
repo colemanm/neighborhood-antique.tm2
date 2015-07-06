@@ -11,9 +11,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -82.6298
-  - 27.7321
-  - 16
+  - -90.0154
+  - 29.9138
+  - 15
 description: Historic cartography for neighborhood maps.
 format: "png8:m=h"
 interactivity_layer: ''

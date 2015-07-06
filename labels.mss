@@ -1,24 +1,11 @@
 // =====================================================================
 // LABELS
 
-// ---------------------------------------------------------------------
-// Languages
-
-// There are 5 language options in the MapBox Streets vector tiles:
-// - Local/default: '[name]'
-// - English: '[name_en]'
-// - French: '[name_fr]'
-// - Spanish: '[name_es]'
-// - German: '[name_de]'
 @name: '[name_en]';
 
 // ---------------------------------------------------------------------
 // Fonts
 
-// All fontsets should have a good fallback that covers as many glyphs
-// as possible. 'Arial Unicode MS Regular' and 'Arial Unicode MS Bold' 
-//are recommended as final fallbacks if you have them available. 
-//They support all the characters used in the MapBox Streets vector tiles.
 @fallback: 'Arial Unicode MS Regular';
 
 @serif: "Crimson Roman";
@@ -27,7 +14,6 @@
 @serif_it: "Crimson Italic";
 @serif_semibd_it: "Crimson Semibold Italic";
 @serif_bd_it: "Crimson Bold Italic";
-
 
 // ---------------------------------------------------------------------
 // Marine
@@ -113,6 +99,7 @@
   text-wrap-before: true;
   text-transform: uppercase;
   text-fill: #333;
+  text-allow-overlap: false;
   text-halo-fill: @antique;
   text-halo-radius: 1.5;
   text-halo-rasterizer: fast;
@@ -240,32 +227,7 @@
 
 // ---------------------------------------------------------------------
 // Roads
-/*
-#road_label[reflen>=1][reflen<=6]::shield {
-  // Motorways with a 'ref' tag that is 1-6 characters long have a
-  // [ref] value for shield-style labels.
-  // Custom shield png files can be created using make_shields.sh
-  // in _src folder
-  shield-name: [ref];
-  shield-face-name: @serif;
-  shield-fill: #fff;
-  shield-min-distance: 50;
-  shield-min-padding: 12;  // prevents clipped shields at tile edges
-  shield-size: 9;
-  shield-file: url('img/shield/motorway_sm_[reflen].svg');
-  [zoom>=10] {
-    shield-min-distance: 20;
-    }
-  [zoom>=12] {
-    shield-min-distance: 50;
-    }
-  [zoom>=15] {
-    shield-size: 12;
-    shield-file: url('img/shield/motorway_lg_[reflen].svg');
-    shield-min-distance: 80;
-  }
-}
-*/
+
 #road_label {
   [class='main'][zoom>=14] {
     text-name: @name;
@@ -337,7 +299,7 @@
     text-name: @name;
     text-face-name: @serif_bd_it;
     text-transform: uppercase;
-    text-fill: #000;
+    text-fill: darken(@water, 15);
     text-size: 14;
     text-wrap-width: 100;
     text-wrap-before: true;

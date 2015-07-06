@@ -200,9 +200,7 @@ Map {
   } 
   [zoom>=16] {
     line-color: #555;
-	line-width: 0.5; 
-	polygon-pattern-file: url('img/patterns/stripe_sm.png');
-    polygon-pattern-opacity: 0.2;
+	line-width: 0.5;
   }
   ::overlay {
     opacity: 0.05;
